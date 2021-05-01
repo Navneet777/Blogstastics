@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 's*7)uhj=hdhxoy5k-1yw30576jd10(9xy*n#@o=4wk1zqg1hbj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blogstastics.herokuapp.com']
 
 
 # Application definition
